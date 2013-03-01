@@ -1,7 +1,25 @@
-\documentclass[a4paper, 10pt]{letter}
+\documentclass[a4paper, 12pt]{article}
 \usepackage [utf8]{inputenc}
 \usepackage [spanish]{babel}
 \begin{document}
+\title {Titulo del articulo}
+\author {Adrian Cruz Guerra\\
+	    Técnicas Experimentales~\footnote{Universidad de la laguna}
+	    }
+\date {\today}
+\maketitle
+\begin{abstract}
+  En \LaTeX {}~\cite{Lam:86} es sencillo escribir expresiones 
+  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
+  y deben ser escritas entre dos símbolos \$.
+  Los superíndices se obtienen con el símbolo \^{}, y
+  los subíndices con el símbolo \_.
+  Por ejemplo: $x^2 \times y {\alpha + \beta}$.
+  También se pueden escribir fórmulas centradas:
+  \[h^2=a^2 + b^2\]
+\end {abstract}
+
+\section {Primera sección}
 Si simplemente se desea escribir texto normal en LaTeX,
 sin complicadas f\'ormulas matem\'aicas o efectos especiales
 como cambios de fuente, entonces simplemente tiene que escribir
@@ -24,4 +42,11 @@ También se ha de tener cuidado con los guiones: se utiliza un único
 guión para la separación de sílabas, mientras que se utilizan 
 tres guiones seguidos para producir un gión de los que se usan 
 como signo de puntuación --- como en esta oración.
+\begin {thebibliography}{00}
+  \bibitem{Lam:86}
+    Lamport, Leslie.
+    TLA in pictures
+    \emph {IEEE Transactions on Software Engineering},
+    21(9), 768-775.
+\end {thebibliography}
 \end {document}
