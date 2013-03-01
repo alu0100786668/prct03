@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.15)  1 MAR 2013 13:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.15)  1 MAR 2013 13:16
 entering extended mode
  %&-line parsing enabled.
 **latex-src.tex
@@ -305,4 +305,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  24i,11n,27p,168b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on latex-src.dvi (2 pages, 3292 bytes).
+Output written on latex-src.dvi (2 pages, 3768 bytes).
